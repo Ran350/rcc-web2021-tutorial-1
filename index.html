@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        transform: scale(1);
+        transition: 0.2s;
+        text-align: center;
+      }
+      h1:hover {
+        transform: scale(1.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: red">こんにちは</h1>
+    <ul>
+      <li>リスト</li>
+      <li>リスト</li>
+      <li>リスト</li>
+    </ul>
+
+    <article>
+      <h1>カウンター</h1>
+      <div><span class="result">0</span></div>
+      <button class="button-plus">+</button>
+      <button class="button-minus">-</button>
+    </article>
+  </body>
+  <script src="./script.js"></script>
+</html>
